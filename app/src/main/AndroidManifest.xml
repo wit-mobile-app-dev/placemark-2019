@@ -13,15 +13,15 @@
       android:supportsRtl="true"
       android:theme="@style/AppTheme">
     <activity
-      android:name=".activities.PlacemarkMapsActivity"
+      android:name=".activities.placemarkmap.PlacemarkMapsActivity"
       android:label="@string/title_activity_placemark_maps"></activity>
 
     <meta-data
       android:name="com.google.android.geo.API_KEY"
       android:value="@string/google_maps_key" />
 
-    <activity android:name=".activities.PlacemarkActivity" />
-    <activity android:name=".activities.PlacemarkListActivity">
+    <activity android:name=".activities.placemark.PlacemarkActivity" />
+    <activity android:name=".activities.placemarklist.PlacemarkListActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
 
@@ -29,7 +29,7 @@
       </intent-filter>
     </activity>
     <activity
-      android:name=".activities.MapActivity"
+      android:name=".activities.editlocation.MapActivity"
       android:label="@string/title_activity_map" />
   </application>
 

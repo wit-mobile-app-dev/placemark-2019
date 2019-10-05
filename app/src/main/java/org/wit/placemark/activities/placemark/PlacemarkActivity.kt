@@ -1,4 +1,4 @@
-package org.wit.placemark.activities
+package org.wit.placemark.activities.placemark
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -11,6 +11,7 @@ import org.jetbrains.anko.info
 import org.jetbrains.anko.intentFor
 import org.jetbrains.anko.toast
 import org.wit.placemark.R
+import org.wit.placemark.activities.editlocation.MapActivity
 import org.wit.placemark.helpers.readImage
 import org.wit.placemark.helpers.readImageFromPath
 import org.wit.placemark.helpers.showImagePicker
